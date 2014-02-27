@@ -1,7 +1,7 @@
 header {
 			font-size: 60px;
 			text-align: center;
-			font-family: 'Lily Script One', cursive;
+			font-family: 'Esteban', serif;
 			background-image: url('http://i59.tinypic.com/k53hjm.jpg');
 			max-width: 1200px;
 			margin: 0 auto;
@@ -11,7 +11,7 @@ header {
 			color: white;
 			}
 		h2 {
-			font-family: 'Lily Script One', cursive;
+			font-family: 'Esteban', serif;
 			color: white;
 			font-size: 30px;
 		}
@@ -26,8 +26,8 @@ header {
 			padding: 10px 0px 0px 0px;
 			color: white;
 			background-color: rgba(0,0,0,0.40);
-			font-family: 'Lily Script One', cursive;
-			font-size: 20px;
+			font-family: 'Esteban', serif;
+			font-size: 16px;
 			border-radius: 40px;
 		}
 		body {
@@ -40,7 +40,6 @@ header {
 
 		ul {
       		padding: 5px;
-      		background: rgba(0,0,0,0.3);
       		text-align: center;
       		max-width: 1200px;
       		margin: 30px auto;
@@ -55,26 +54,36 @@ header {
 			color: white;
 			text-align: center;
 			border-radius: 40px;
+			background-color: rgba(0,0,0,0.5)
+		}
+
+		a {
+			color: white;
+
 		}
 		.lifedrawings {
 			margin-top: 60px;
 			}
 
+		.photos {
+			margin-top: 60px;
+		}
+
 		#navbar {
 				position: absolute;
 				top: 0;
 				padding:0;
-				border-radius: 400px;
-				background-color: rgba(0,0,0,0.3); 
+				background-color: rgba(0,0,0,0.5); 
 				float:center;
 				margin: 0 auto;
-				margin-top: 5px; 
 				display:block;
 				width:100%;
-				font-weight:bold;
 				color: white;
 				text-align: center;
 				padding:4px;
 				text-decoration:none;
 				text-transform:uppercase;
 			}
+		#navbar li {
+			background-color: rgba(0,0,0,0);
+		}
