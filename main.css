@@ -1,7 +1,7 @@
 header {
 			font-size: 60px;
 			text-align: center;
-			font-family: 'Esteban', serif;
+			font-family: 'Averia Sans Libre', cursive;
 			background-image: url('http://i59.tinypic.com/k53hjm.jpg');
 			max-width: 1200px;
 			margin: 0 auto;
@@ -11,9 +11,11 @@ header {
 			color: white;
 			}
 		h2 {
-			font-family: 'Esteban', serif;
-			color: white;
+			font-family: 'Averia Sans Libre', cursive;
+			color: rgba(240, 248, 255, 1);
 			font-size: 30px;
+			background-color: rgba(144, 238, 130, 0.5);
+			background-size: tight;
 		}
 		img {
 			border-radius: 50px;
@@ -29,7 +31,7 @@ header {
 			padding: 10px 0px 0px 0px;
 			color: white;
 			background-color: rgba(0,0,0,0.40);
-			font-family: 'Esteban', serif;
+			font-family: 'Averia Sans Libre', cursive;
 			font-size: 16px;
 			border-radius: 40px;
 		}
@@ -51,7 +53,7 @@ header {
    		li {
      		 display: inline;
      		 font-size: 18px;
-     		 font-family: 'Lily Script One', cursive;
+     		 font-family: 'Averia Sans Libre', cursive;
      		 font-style: italic;
 			padding: 10px 5px 5px 10px;
 			color: white;
@@ -70,6 +72,7 @@ header {
 
 		.photos {
 			margin-top: 60px;
+			padding: 10px;
 		}
 
 		#navbar {
