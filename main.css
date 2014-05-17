@@ -23,8 +23,18 @@ header {
 			max-width: 420px;
 			max-height: 280px;
 			padding: 10px;
+
+
 		}
-		p {
+
+		div {
+		  background-size: cover;
+		  position: relative;
+		  margin: 40px 0 0 0;
+		  border-radius: 12px;
+
+		}
+	/*	p {
 			margin: 0 auto;
 			max-width: 1200px;
 			text-align: center;
@@ -34,7 +44,43 @@ header {
 			font-family: 'Averia Sans Libre', cursive;
 			font-size: 16px;
 			border-radius: 40px;
+		}*/
+
+		p {
+			  color: rgba(255,255,255,1);
+			  background: black;
+			  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+			  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+			  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+			  padding: 10px;
+			  line-height: 28px;
+			  text-align: center;
+			  position: center;
+			  width: 50%;
+			  bottom: 0;
+			  margin: 0 auto;
+			  height: 1px;
+
+			  transition: height .5s;
+			  transition-property: height;
+			  -webkit-transition: height .5s;
+			}
+
+
+	
+
+		small {
+		  opacity: 0;
 		}
+
+		.show-description p {
+		  height: 150px;
+		}
+
+		.show-description small {
+		  opacity: 1;
+		}
+		
 		body {
 			background-image: url("http://i60.tinypic.com/1se5ms.jpg");
 			background-size: cover;
@@ -66,15 +112,7 @@ header {
 			color: white;
 
 		}
-		.lifedrawings {
-			margin-top: 60px;
-			}
-
-		.photos {
-			margin-top: 60px;
-			padding: 10px;
-		}
-
+	
 		#navbar {
 				position: absolute;
 				top: 0;
@@ -90,6 +128,37 @@ header {
 				text-decoration:none;
 				text-transform:uppercase;
 			}
-		#navbar li {
-			background-color: rgba(0,0,0,0);
+					#navbar li {
+						background-color: rgba(0,0,0,0);
+					}
+
+		#navbar2 {
+				position: absolute bottom;
+				top: 0;
+				padding:0;
+				background-color: rgba(0,0,0,0.5); 
+				float:center;
+				margin: 0 auto;
+				display:block;
+				width:100%;
+				color: white;
+				
+				padding:4px;
+				text-decoration:none;
+				text-transform:uppercase;
+			}
+					
+					#navbar2 li {
+						background-color: rgba(0,0,0,0);
+						}
+
+
+
+	.lifedrawings {
+			margin-top: 60px;
+			}
+
+		.photos {
+			margin-top: 60px;
+			padding: 10px;
 		}
