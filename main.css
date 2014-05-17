@@ -80,7 +80,11 @@ header {
 		.show-description small {
 		  opacity: 1;
 		}
-		
+
+		.third {
+			padding-bottom: 15px;
+		}
+
 		body {
 			background-image: url("http://i60.tinypic.com/1se5ms.jpg");
 			background-size: cover;
