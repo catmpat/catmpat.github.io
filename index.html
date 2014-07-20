@@ -13,7 +13,8 @@
 
 <head>
 	<title>CMP</title>
-	<script src="/assets/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,700' rel='stylesheet' type='text/css'>
 	<link href='main.css' rel='stylesheet'>
 	<script>
@@ -25,49 +26,39 @@
 			  ga('create', 'UA-48681170-1', 'catrionaaged22.co.uk');
 			  ga('send', 'pageview');
 	</script>
-
-
 </head>
 
 <body>
 
+<!-- Title -->
 	<header>
 		<h1>Aged 22</h1>
 	</header>
 
-	<img src="http://0.academia-photos.com/2605780/822393/1022470/s200_catriona.patterson.jpg">
+<!-- Image of me
+	<img src="http://0.academia-photos.com/2605780/822393/1022470/s200_catriona.patterson.jpg"> -->
 
-	<div class="first show-description">
-  <p>Interests<span class="price"></span><br />
-  <small> </small></p>
-</div>
+<!-- Drop down info	-->	
+	<div id="interests"> <h2>Interests</h2>
+  		<div id = "interests-panel"><p>Nothing really.</div></p>
+	</div>
 
-	<div class="second show-description">
-  <p>Skills<span class="price"></span><br />
-  <small> </small></p>
-</div>
+	<div id="skills"> <h2>Skills</h2>
+  		<div id = "skills-panel"><p>Nothing really.</div></p>
+	</div>
 
+	<div id="experience"> <h2>Experience</h2>
+  		<div id = "experience-panel"><p>Nothing really.</div></p>
+	</div>
 
-	<div class="third show-description">
-  <p>Experience <br />
-  <small></small></p>
-</div>	
-
-
-
-<div id="navbar2">
-	<ul>
-		<li><a href="http://www.facebook.com/catmpat">Facebook</a></li>
-		<li><a href="http://lnkd.in/8jD8Qw">LinkedIn</a></li>
-		<li><a href="http://catmpat.tumblr.com">Blog</a></li>
-	</ul>
-</div>
-
-<script> 
-	$('div').on('click', function() {
-  		$(this).toggleClass('show-description');
-	});
-</script>
+<!-- Bottom Navbar -->
+	<div id="navbar2">
+		<ul>
+			<li><a href="http://www.facebook.com/catmpat">Facebook</a></li>
+			<li><a href="http://lnkd.in/8jD8Qw">LinkedIn</a></li>
+			<li><a href="http://catmpat.tumblr.com">Blog</a></li>
+		</ul>
+	</div>
 
 
 </body>
