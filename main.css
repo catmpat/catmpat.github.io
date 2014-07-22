@@ -40,7 +40,7 @@ header {
 			text-align: center;
 			padding: 10px 0px 0px 0px;
 			color: white;
-			background-color: rgba(0,0,0,0.40);
+			background-color: rgba(0,0,0,0.60);
 			font-family: 'Averia Sans Libre', cursive;
 			font-size: 16px;
 			border-radius: 40px;
@@ -65,8 +65,7 @@ header {
 			} */
 
 		#interests-panel, #skills-panel, #experience-panel {
-			display: none;
-			background-color: rgba(0,0,0,0.5); 
+			display: none; 
 			line-height: 24px;
 			  text-align: center;
 			  position: center;
@@ -76,7 +75,6 @@ header {
 			  height: auto;
 			  border-radius: 20px;
 			  color: white;
-
 		}
 
 		#skills-panel {
@@ -84,6 +82,22 @@ header {
 
 		#experience-panel {
 			margin-bottom: 80px;
+		}
+
+		#description, #description1 {
+			margin: 0 auto;
+			width: 65%;
+			max-width: 1200px;
+			text-align: center;
+			padding: 10px 0px 0px 0px;
+			color: white;
+			font-family: 'Averia Sans Libre', cursive;
+			font-size: 16px;
+			border-radius: 40px;
+		}
+
+		#description-panel, #description-panel1 {
+			display: none;
 		}
 
 		body {
@@ -165,8 +179,7 @@ header {
 			margin-top: 60px;
 			}
 
-		.photos {
+	.photos {
 			margin-top: 60px;
 			padding: 10px;
 		}
-
