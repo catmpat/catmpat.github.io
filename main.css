@@ -33,8 +33,9 @@ header {
 		  border-radius: 50px;
 
 		}
-/p {
+		p {
 			margin: 0 auto;
+			width: auto;
 			max-width: 1200px;
 			text-align: center;
 			padding: 10px 0px 0px 0px;
@@ -66,16 +67,19 @@ header {
 		#interests-panel, #skills-panel, #experience-panel {
 			display: none;
 			background-color: rgba(0,0,0,0.5); 
-			line-height: 28px;
+			line-height: 24px;
 			  text-align: center;
 			  position: center;
-			  width: 60%;
+			  width: 65%;
 			  bottom: 0;
 			  margin: 0 auto;
-			  height: 75px;
+			  height: auto;
 			  border-radius: 20px;
 			  color: white;
 
+		}
+
+		#skills-panel {
 		}
 
 		#experience-panel {
